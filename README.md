@@ -1,1 +1,1 @@
-# static-web-project
+# demo-static-web
