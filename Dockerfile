@@ -1,5 +1,5 @@
 # Build stage
-FROM klakegg/hugo:0.128.0-ext-alpine AS builder
+FROM golang:1.22.6-alpine AS build
 WORKDIR /src
 COPY . .
 ENV HUGO_ENVIRONMENT=production
